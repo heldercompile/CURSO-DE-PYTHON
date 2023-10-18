@@ -1,0 +1,62 @@
+VARIÁVEIS
+
+Imagine que uma variável em Python é como um armário em que você guarda coisas. Cada armário tem um nome, como 'meuArmario'. Agora, dentro desse armário, você pode colocar qualquer coisa, como livros, roupas ou comida.
+
+
+Por exemplo, podemos criar um armário chamado 'minhaIdade' e guardar nossa idade dentro dele:
+
+minhaIdade = 20
+
+Aqui, 'minhaIdade' é o nome do armário e 20 é a idade que estamos guardando dentro dele.
+
+A grande sacada é que você pode trocar o que está dentro do armário a qualquer momento:
+
+minhaIdade = 21
+
+Agora, 'minhaIdade' guarda a idade 21.
+
+Além disso, você pode usar o que está dentro do armário para fazer coisas, como somar ou subtrair:
+
+anoAtual = 2023
+anoDeNascimento = 2000
+minhaIdade = anoAtual - anoDeNascimento
+
+Aqui, estamos subtraindo o ano de nascimento do ano atual para descobrir nossa idade, e o resultado vai para o armário 'minhaIdade'.
+
+Assim, variáveis são como armários que você pode nomear, guardar coisas e usar essas coisas para fazer cálculos ou realizar ações em seu programa.
+
+TIPOS DE DADOS
+
+No Python, as variáveis são dinâmicas, ou seja, a mesma variável aceita tipos diferentes de dados
+
+Os tipos fundamentais são:
+
+a = 123 # numérico inteiro
+b= "abc" # literal string, podemos usar aspas simples e triplas também
+c= 12.3 # float, numeros reais, com separação por ponto flutuante
+d= True # booleano
+e = False # booleano
+
+CONVENÇÕES PARA NOMEAR VARIÁVEIS
+
+* INICIAR SEMPRE COM LETRA minúscula
+* O NOME PODE SER COMPOSTO POR LETRAS, ALGARISMOS E UNDERLINES
+* NÃO PODE TER ESPAÇOS
+* PARA NOME COMPOSTOS UTILIZAMOS O camelCase
+* NÃO PODEMOS UTILIZAR PALAVRAS RESERVADAS DO PYTHON(if, for, from, etc)
+
+Caso não saiba qual o tipo de dado de uma variável, podemos utilizar a função type() passando como parâmetro o nome da variável
+
+Por exemplo:
+
+number = 12.5
+print(type(number)) # Irá aparecer no console 'float'
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+A entrada de dados é uma parte fundamental da programação, pois permite que um programa interaja com o usuário e processe informações fornecidas por ele. Em Python, existem várias maneiras de obter entrada de dados do usuário. Vou explicar as principais:
+
+Função input():
+
+A função input() permite que você solicite ao usuário que insira dados a partir do teclado. Ela lê uma linha de texto digitada pelo usuário e a retorna como uma string. Aqui está um exemplo simples:
+
+
+nome = input("Digite seu nome: ")
+print("Olá, " + nome)
+Neste exemplo, o programa solicita ao usuário que insira seu nome e, em seguida, exibe uma mensagem de boas-vindas com o nome fornecido.
+
+Conversão de Tipos:
+
+Lembre-se de que input() sempre retorna uma string. Se você espera um tipo diferente de dado, como um número inteiro, você deve convertê-lo usando funções como int() ou float():
+
+
+idade = int(input("Digite sua idade: "))
+Isso garante que a entrada seja tratada como um número inteiro.

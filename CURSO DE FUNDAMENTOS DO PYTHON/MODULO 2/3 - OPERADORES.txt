@@ -1,0 +1,90 @@
+OPERADORES
+
+Operadores em Python são símbolos ou palavras especiais que realizam ações em valores ou variáveis.
+
+1 - Operadores de Aritmética:
+
+Esses operadores são como as ferramentas de um kit de construção que você usa para fazer cálculos matemáticos:
+
++ (mais) é para adição.
+- (menos) é para subtração.
+* (asterisco) é para multiplicação.
+/ (barra) é para divisão.
+% (porcentagem) é para encontrar o resto de uma divisão.
+
+Por exemplo:
+
+resultado = 5 + 3  # Aqui, estamos somando 5 e 3 para obter o resultado.
+print(resultado) # Vai aparecer no console o resutado da operação
+
+2 - Operadores de Comparação:
+
+Esses operadores ajudam você a comparar coisas, como brinquedos:
+
+== (igual) verifica se duas coisas são iguais.
+!= (diferente) verifica se duas coisas são diferentes.
+< (menor que) verifica se uma coisa é menor que a outra.
+> (maior que) verifica se uma coisa é maior que a outra.
+<= (menor ou igual a) verifica se uma coisa é menor ou igual a outra.
+>= (maior ou igual a) verifica se uma coisa é maior ou igual a outra.
+
+Por exemplo:
+
+comparacao = 5 > 3  # Aqui, estamos verificando se 5 é maior que 3 e guardando o resultado em 'comparacao'.
+print(comparacao) # Vai aparecer no console True
+
+3 - Operadores Lógicos:
+
+Esses operadores ajudam a tomar decisões, como escolher qual brinquedo brincar:
+
+and (e) combina duas condições e é verdadeiro apenas se ambas forem verdadeiras.
+or (ou) combina duas condições e é verdadeiro se pelo menos uma delas for verdadeira.
+not (não) inverte uma condição, tornando verdadeiro em falso e vice-versa.
+Por exemplo:
+
+temBrinquedo = True
+querBrincar = True
+brincar = (temBrinquedo and querBrincar)  # Aqui, estamos verificando se temos um brinquedo e queremos brincar com ele.
+print(brincar) # Vai aparecer no console True
+
+4 - Operadores de associação
+
+Os operadores de associação em Python são utilizados para verificar a presença de um valor em uma sequência, como uma lista, tupla, conjunto ou dicionário. Existem dois principais operadores de associação:
+
+in: Este operador verifica se um valor está presente na sequência. Se estiver, ele retorna True; caso contrário, retorna False. Por exemplo:
+
+frutas = ['maçã', 'banana', 'laranja']
+tem_banana = 'banana' in frutas  # Isso retornará True
+tem_morango = 'morango' in frutas  # Isso retornará False
+not in: Este operador verifica se um valor NÃO está presente na sequência. Se estiver ausente, ele retorna True; caso contrário, retorna False. Por exemplo:
+
+frutas = ['maçã', 'banana', 'laranja']
+nao_tem_morango = 'morango' not in frutas  # Isso retornará True
+nao_tem_macas = 'maçã' not in frutas  # Isso retornará False
+
+Esses operadores de associação são úteis para verificar a existência de elementos em estruturas de dados, o que é comum ao lidar com decisões e iterações em programas Python.
+
+OPERADOR IS
+
+O operador is em Python é usado para verificar se dois objetos são idênticos, ou seja, se eles estão localizados na mesma área da memória. Em outras palavras, ele verifica se duas variáveis se referem ao mesmo objeto, em oposição a verificar se os valores das variáveis são iguais.
+
+Por exemplo:
+
+lista1 = [1, 2, 3]
+lista2 = [1, 2, 3]
+
+mesma_lista = lista1 is lista2  # Isso retornará False
+Nesse caso, embora as listas lista1 e lista2 contenham os mesmos valores, elas não são o mesmo objeto na memória, então mesma_lista será False.
+
+No entanto, se você atribuir a mesma lista a ambas as variáveis:
+
+
+lista1 = [1, 2, 3]
+lista2 = lista1
+
+mesma_lista = lista1 is lista2  # Isso retornará True
+Agora, ambas as variáveis se referem ao mesmo objeto na memória, portanto, mesma_lista será True.
+
+O operador is é útil ao verificar se duas variáveis apontam para o mesmo objeto, especialmente em situações em que a identidade do objeto é importante. No entanto, para verificar se os valores das variáveis são iguais, é mais apropriado usar o operador ==.
+
+

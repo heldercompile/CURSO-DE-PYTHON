@@ -1,0 +1,22 @@
+Python: Uma Visão Geral Breve
+
+Python é uma linguagem de programação de alto nível, interpretada e geralmente considerada simples de aprender e fácil de ler. Foi criada por Guido van Rossum e lançada em 1991. Python ganhou popularidade devido à sua sintaxe limpa, vasta comunidade de desenvolvedores e bibliotecas extensas. Ele é usado em uma ampla variedade de aplicações, desde desenvolvimento web até aprendizado de máquina e automação.
+
+História Rápida de Python
+
+Guido van Rossum começou a trabalhar no Python em 1989.
+A primeira versão, Python 0.9.0, foi lançada em fevereiro de 1991.
+Python 1.0 foi lançado em janeiro de 1994.
+Python 2.0 foi lançado em outubro de 2000 e marcou uma grande atualização.
+Python 3.0 foi lançado em dezembro de 2008 com alterações significativas na linguagem.
+Zen of Python (PEP 20)
+
+O "Zen of Python" é um conjunto de princípios filosóficos que orientam o desenvolvimento da linguagem Python. Estes princípios foram escritos por Tim Peters e podem ser acessados no interpretador Python usando import this.
+
+Alguns dos princípios do Zen of Python incluem:
+
+Legibilidade conta: O código deve ser fácil de ler e entender.
+Explícito é melhor que implícito: Evite ambiguidade e seja explícito.
+Simples é melhor que complexo: Mantenha as coisas simples e diretas.
+Surpreendente é melhor que óbvio: Quando possível, surpreenda positivamente os programadores.
+Esses princípios ajudam a orientar o design e a filosofia de Python, promovendo a legibilidade e a simplicidade, que são características fundamentais da linguagem. Python adere a esses princípios para criar um ambiente de programação agradável e eficiente.

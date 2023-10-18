@@ -1,0 +1,42 @@
+ESTRUTURAS DE DADOS EM PYTHON
+
+1 - Listas:
+
+Imagine que uma lista é como uma coleção de brinquedos na sua caixa de brinquedos. Você pode adicionar diferentes brinquedos, como carrinhos, bonecas e bolas, em uma ordem específica. Por exemplo:
+
+minhaLista = ["Carrinho", "Boneca", "Bola"]
+
+Aqui, minhaLista é como sua caixa de brinquedos que guarda esses três brinquedos.
+
+2 - Tuplas:
+
+Uma tupla é como uma caixa lacrada que você não pode mudar. Imagine que você coloca brinquedos em uma caixa, fecha-a e não pode mais adicionar ou tirar brinquedos dela.
+
+minhaTupla = ("Carrinho", "Boneca", "Bola")
+
+Esses brinquedos não podem ser removidos ou substituídos.
+
+3 - Dicionários:
+
+Pense em um dicionário como uma coleção de palavras com suas definições. Cada palavra (chave) tem uma descrição (valor). Por exemplo:
+
+meuDicionário = {"Carrinho": "Um veículo pequeno com rodas", "Boneca": "Um brinquedo que se parece com uma pessoa"}
+
+Aqui, você pode procurar a definição de uma palavra (chave) no dicionário.
+
+4 - Conjuntos:
+
+Um conjunto é como uma coleção de brinquedos únicos. Imagine que você tem uma caixa onde só pode colocar brinquedos diferentes, não importa quantas vezes você tente colocar o mesmo brinquedo.
+
+meuConjunto = {"Carrinho", "Boneca", "Bola"}
+
+Ele só guarda brinquedos únicos, então você não pode ter brinquedos repetidos.
+
+Essas são algumas das principais estruturas de dados em Python, cada uma com seu próprio propósito. Elas são como maneiras diferentes de organizar e armazenar informações em seu programa.
+
+
+Para verificarmos o tamanho das nossas estruturas, utilizamos a função len()
+
+
+
+
